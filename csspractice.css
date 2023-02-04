@@ -1,0 +1,14 @@
+div {
+    color: white;
+}
+
+/* div {
+    color: aqua;
+} */
+
+<div class="alert-text">
+  Please agree to our terms of service.
+</div>
+    .alert-text {
+         color: red;
+         }
