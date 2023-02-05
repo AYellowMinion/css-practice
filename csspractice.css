@@ -1,14 +1,32 @@
+
+.para1 {
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+    font-weight: 900;
+}
+
+.para2 {
+    font-size: 12px;
+    color: red;
+    text-align: right;
+    font-weight: 100;
+}
+
+/*
+
 div {
     color: white;
 }
 
-/* div {
+ div {
     color: aqua;
-} */
-
+} 
 <div class="alert-text">
   Please agree to our terms of service.
 </div>
     .alert-text {
          color: red;
          }
+         
+ */
