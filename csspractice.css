@@ -3,7 +3,7 @@
 .quote,
 .copyright {
   background-color: #1f2937;  
-  padding: 10px;
+  padding: 1px;
 }
 
 .header { 
@@ -25,12 +25,12 @@
 }
 
 .bottom {
-    background-color: lightblue
+    background-color: #3882f6
     padding: 10px;
     color: yellow; 
 }
 
-.button2 {
+.button {
     border-color: white;
     background-color: #3882f6;
     color: white;
