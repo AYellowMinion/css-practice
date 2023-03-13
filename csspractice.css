@@ -1,7 +1,8 @@
 
 .header,
 .quote,
-.copyright {
+.copyright,
+.headtext {
   background-color: #1f2937;  
   padding: 1px;
 }
@@ -9,11 +10,24 @@
 .header { 
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+}
+
+.headtext {
+    display: flex;
+    color: white;
 }
 
 .fourbox {
-    background-color: red;
+    background-color: white;
+    display: flex;
+    
 }
+.box {
+    border-color: blue;
+    padding: 2%;
+}
+
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -23,9 +37,9 @@
 }
 
 .bottom {
-    background-color: #3882f6
+    background-color: #3882f6 ;
     padding: 10px;
-    color: yellow; 
+    color: white;
 }
 
 .button {
@@ -37,8 +51,9 @@
 }
 
 .copyright {
-    font-size: small
-    padding: 10px;
     text-align: center;
+    font-size: small; 
+    padding: 10px;
     color: white;
+       
 }
