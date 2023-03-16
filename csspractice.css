@@ -1,22 +1,73 @@
+/* div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+style="background-color: grey; justify-content: 
+center; align-items: center;"
+
+*/
 
 .header,
 .quote,
 .copyright,
 .headtext {
   background-color: #1f2937;  
-  padding: 1px;
 }
 
-.header { 
-    font-size: 24px;
+.header {
+    font-size: 14px;
     color: #f9faf8;
     display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 60px;
 }
+.threelinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.link {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
 
 .headtext {
     display: flex;
+    text-align: center;
     color: white;
+    font-size: large;
+    justify-content: space-evenly;
 }
+
+.boxgroupone {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 150px;
+    text-align: left;
+}
+
+.placeholder {
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    height: 150px;
+    width: 400px;
+}
+
+
+
+
+
 
 .fourbox {
     background-color: white;
@@ -28,6 +79,17 @@
     padding: 2%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -36,6 +98,22 @@
     padding: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bottom {
     background-color: #3882f6 ;
     padding: 10px;
@@ -43,17 +121,37 @@
 }
 
 .button {
-    border-color: white;
+    border-color: #3882f6   ;
     background-color: #3882f6;
     color: white;
-    text-align: right;
+    text-align: center;
+    width: 70px;
+    border-radius: 10px;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .copyright {
     text-align: center;
     font-size: small; 
     padding: 10px;
     color: white;
-       
 }
